@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: chartreuse;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    
+}
+.heading3{    
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: blueviolet;
+    padding: 5px;
+    margin-left:50px ;
+    color: rgb(87, 209, 0);
+}
+.heading3:hover{
+    background-color: rgb(87, 209, 0);
+    color: blueviolet;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+}
+.navlink{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: 1.5px solid gold;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(197, 155, 155);
+   
+}
+.navlink:hover{
+    color: rgb(197, 155, 155);
+    background-color:blue ;
+}
+.abcd{
+    margin-top: 30px;
+    display: flex;
+    height:390px;
+    justify-content: space-between;
+
+}
+.text{
+    display: block;
+    width: 50%;
+    margin-left: 40px;
+}
+.head{
+    margin:15px;
+}
+.hello{
+    font-size: larger;
+    color: chocolate;
+
+}
+
+i{
+    font-size: large;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    color: crimson;
+    background-color:rgb(10, 224, 213) ;
+}
+i:hover{
+    color:rgb(10, 224, 213) ;
+ 
+    background-color: crimson;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+   display: inline;
+   margin-top: 30px;
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    color: rgb(220, 214, 18);
+   
+    
+}
+button:hover{
+    color: blue;
+    background-color:rgb(220, 214, 18) ;
+}
+.image{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+img{
+    border: 2px solid green;
+    border-radius: 20px;
+    background-color: deeppink;
+    box-shadow: 25px 25px 25px 25px
+    25px 25px 25px 25px
+    25px 25px 25px 25px
+    25px 25px 25px 25px;
+}

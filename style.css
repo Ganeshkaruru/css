@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(45, 41, 41);
+    font-family: "Caveat", cursive;
+    text-shadow: 5px 5px 5px 5px
+                5px 5px 5px 5px;
+
+  }
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 75px;
+}
+.navbar-left{
+    display: flex;
+    align-items:center;
+    padding-left: 100px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.nav-ele{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.home{
+    display: flex;
+    align-items:center;
+    min-height: 70vh;
+    flex-direction: row;
+    padding-left:100px;
+
+}
+.text{
+    width: 50%;
+    border-radius:10px;
+  
+}
+.text h1{
+    font-size:45px;
+}
+.text h3{
+    font-size:30px;
+}
+.text p{
+    padding-top:10px;
+    font-weight: 500;
+}
+.image{
+    margin-left: 50px;
+}
+.image img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.btn{
+    display:flex;
+    flex-direction:row;
+}
+.btn h2{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 4px;
+    border-radius: 5px;
+ 
+}
+.btn h2:hover{
+    color:white;
+    background-color: yellowgreen;
+}
+.icons{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    left: 100px;
+}
+.icons i{
+    font-size: 30px;
+    margin: 10px;
+    color:black;
+}

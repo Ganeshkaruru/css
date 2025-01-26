@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.audio-container {
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+audio {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#captions {
+    font-size: 16px;
+    color: #333;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
