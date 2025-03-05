@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-GRID</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(2,50px);
+           grid-template-rows: repeat(5,50px);
+           grid-gap: 20px;
+
+           justify-content: center;
+           padding: 20px;
+            
+        }
+        .items{
+            border: 2px solid green;
+           height: 55px;
+           width: 55px;
+            background-color: red;
+            border-radius: 5px;
+
+        
+        }
+        .conatiner-images{
+display: grid;
+grid-template-columns: repeat(5,100px);
+grid-template-rows:repeat(2,100px) ;
+justify-content: center;
+grid-gap: 20px;
+        }
+        .images{
+            outline: 3px solid black;
+            border-radius: 5px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="items">BOX1</div>
+      <div class="items">BOX2</div>
+      <div class="items">BOX3</div>
+      <div class="items">BOX4</div>
+      <div class="items">BOX5</div>
+      <div class="items">BOX6</div>
+      <div class="items">BOX7</div>
+      <div class="items">BOX8</div>
+      <div class="items">BOX9</div>
+      <div class="items">BOX0</div>
+    </div>
+    <div class="conatiner-images">
+        <div class="images"><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446195/IMG_20241020_230922_694_m5j592.jpg" width="100px" height="100px" alt=""></div>
+        <div class="images"><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446183/IMG_20241020_230930_866_twvkmh.jpg" width="100px" height="100px"  alt=""></div>
+        <div class="images"><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446146/IMG_20241020_230933_251_lwmsme.jpg"  width="100px" height="100px" alt=""></div>
+        <div class="images"><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446140/IMG_20241020_230936_062_kqev0p.jpg" width="100px" height="100px"  alt=""></div>
+        <div class="images"><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446134/IMG_20241020_230938_851_fgdvh3.jpg" width="100px" height="100px"  alt=""></div>
+        <div class="images"><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446126/IMG_20241020_230941_044_mjc6ad.jpg" width="100px" height="100px"  alt=""></div>
+        <div class="images"><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446183/IMG_20241020_230930_866_twvkmh.jpg" width="100px" height="100px"  alt=""></div>
+        <div class="images"><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446195/IMG_20241020_230922_694_m5j592.jpg"  width="100px" height="100px" alt=""></div>
+        <div class="images"><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446146/IMG_20241020_230933_251_lwmsme.jpg" width="100px" height="100px"  alt=""></div>
+        <div class="images" ><img src="https://res.cloudinary.com/dnfd3770n/image/upload/v1729446126/IMG_20241020_230941_044_mjc6ad.jpg" width="100px" height="100px" alt=""></div>
+
+    </div>
+</body>
+</html>
